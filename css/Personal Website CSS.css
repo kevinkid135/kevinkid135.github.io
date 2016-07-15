@@ -1,0 +1,66 @@
+#navbar {
+	text-align: right;
+}
+
+html, body, #coverpage {
+	height: 100%;
+}
+
+body {
+  padding-top: 30px;
+}
+
+#portfolio > img {
+	padding: 10px;
+}
+
+#coverpage{
+	width: 100%;
+	z-index: -2;
+	position: relative;
+	background-color: purple;
+}
+
+#name{
+	text-align: center;
+	font-size: 5vw;
+	position: fixed;
+	top: 40%;
+	left: 35%;
+	z-index: 1;
+}
+
+#content {
+	z-index: 10;
+	background-color: grey;
+}
+
+#about, #portfolio, #contactme{
+	min-height: calc(100vh - 30px);
+}
+
+#about {
+	background-color: blue;
+}
+
+#portfolio{
+	background-color: gold;
+}
+.port-img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#contactme{
+	background-color: red;
+}
+
+.bg {
+	position:fixed;
+	width:100%;
+}
+
+.inequality {
+	color: red;
+	font-weight: bold;
+}
