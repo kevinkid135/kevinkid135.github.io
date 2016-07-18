@@ -19,16 +19,29 @@ body {
 	z-index: -2;
 	position: relative;
 	background-color: purple;
+	text-align: center;
 }
 
 #name{
-	text-align: center;
-	font-size: 5vw;
+	font-size: 5em;
+
+	width: 75%;
 	position: fixed;
+	left: 50%;
+	margin-left: -37.5%;
+
 	top: 40%;
-	left: 35%;
+
 	z-index: 1;
 }
+
+
+@media screen and (max-width: 570px){
+	#name{
+		font-size: 12vw;
+	}
+}
+
 
 #content {
 	z-index: 10;
