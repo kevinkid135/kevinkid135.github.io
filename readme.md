@@ -1,10 +1,10 @@
-#Kevin's Personal Website
+# Kevin's Personal Website
 This is a place for me to display the works that I've done. This will include school work and personal projects
 
-##Currently working on:
+## Currently working on:
 * Designing a layout that represents me
 
-##Sections To Include:
+## Sections To Include:
 1. Inital Screen
   * Github link
   * linkedin
