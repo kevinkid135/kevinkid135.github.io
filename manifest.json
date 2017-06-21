@@ -1,0 +1,15 @@
+{
+  "short_name": "Kevin's Portfolio",
+  "name": "Kevin Chan's Portfolio",
+  "icons": [
+    {
+      "src": "KC.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "lightskyblue",
+  "background_color": "aliceblue"
+}
